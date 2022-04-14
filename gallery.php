@@ -40,61 +40,7 @@
     <div class="wrapper" id="wrapper">
 
         <!-- Header -->
-        <header id="header" class="jnr__header header--one clearfix">
-
-            <!-- Start Mainmenu Area -->
-            <div class="mainmenu__wrapper bg__cat--1 poss-relative header_top_line sticky__header">
-                <div class="">
-                    <div class="row d-none d-lg-flex justify-content-between">
-                        <div class="col-sm-4 col-md-6 col-lg-2 order-1 order-lg-1">
-                            <div class="logo justify-content-end">
-                                <a href="index.php">
-                                    <img src="images/logo/logo.png" alt="logo images">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-md-2 col-lg-9 order-3 order-lg-2">
-                            <div class="mainmenu__wrap">
-                                <nav class="mainmenu__nav">
-                                    <ul class="mainmenu">
-                                        <li class="drop"><a href="about-us.php">About Us</a></li>
-                                        <li class="drop"><a href="event-grid.php">Events</a></li>
-                                        <!-- <li class="drop"><a href="#">Pages</a>
-                                            <ul class="dropdown__menu">
-                                                <li><a href="about-us.php">about us</a></li>
-                                                <li><a href="service.php">our service</a></li>
-                                                <li><a href="class-details.php">class details</a></li>
-                                                <li><a href="gallery.php">gallery</a></li>
-                                                <li><a href="gallery-details.php">gallery Details</a></li>
-                                                <li><a href="cart.php">cart Page</a></li>
-                                                <li><a href="wishlist.php">wishlist page</a></li>
-                                                <li><a href="checkout.php">checkout page</a></li>
-                                            </ul>
-                                        </li>-->
-                                        <li class="drop"><a href="gallery.php">Gallery</a> </li>
-                                        <!-- <li class="drop"><a href="blog-grid.php">Blog</a></li>-->
-                                        <li><a href="support.php">Support us</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                    </ul>
-                                </nav>
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                    <!-- Mobile Menu -->
-                    <div class="mobile-menu d-block d-lg-none">
-                        <div class="logo">
-                            <a href="index.php"><img src="images/logo/logo.png" alt="logo"></a>
-                        </div>
-
-                    </div>
-                    <!-- Mobile Menu -->
-                </div>
-                <!-- End Mainmenu Area -->
-        </header>
+        <?php include_once 'header.php';?>
         <!-- //Header -->
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
@@ -281,81 +227,8 @@
         </section>
         <!-- End Subscribe Area -->
         <!-- Footer Area -->
-        <footer id="footer" class="footer-area footer--2">
+        <?php include_once 'footer.php';?>
 
-            <!-- .Start Footer Contact Area -->
-            <div class="footer__contact__area bg__cat--2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="footer__contact__wrapper d-flex flex-wrap justify-content-between">
-                                <div class="single__footer__address">
-                                    <div class="ft__contact__icon">
-                                        <i class="fa fa-home"></i>
-                                    </div>
-
-                                    <div class="ft__contact__details">
-                                        <p>1C Main, 5th Cross,</p>
-                                        <p>Kasturinagar, Bangalore 560043</p>
-                                    </div>
-                                </div>
-                                <div class="single__footer__address">
-                                    <div class="ft__contact__icon">
-                                        <i class="fa fa-home"></i>
-                                    </div>
-
-                                    <div class="ft__contact__details">
-
-
-                                        <ul class="dacre__social__link--2 d-flex justify-content-start">
-                                            <li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                                            <li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                                            <li class="vimeo"><a href="https://vimeo.com/"><i class="fa fa-vimeo"></i></a></li>
-                                            <li class="pinterest"><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p"></i></a></li>
-                                        </ul>
-
-
-
-                                    </div>
-
-
-                                </div>
-                                <div class="single__footer__address">
-                                    <div class="ft__contact__icon">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="ft__contact__details">
-                                        <p><a href="#">+91 9513353577 </a></p>
-                                        <p><a href="#">+91 9663317754 </a></p>
-                                    </div>
-                                </div>
-                                <div class="single__footer__address">
-                                    <div class="ft__contact__icon">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="ft__contact__details">
-                                        <p><a href="#">admissions@advayashaale.org</a></p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .End Footer Contact Area -->
-            <div class="copyright  bg--theme">
-                <div class="container">
-                    <div class="row align-items-center copyright__wrapper justify-content-center">
-                        <div class="col-lg-12 col-sm-12 col-md-12">
-                            <div class="coppy__right__inner text-center">
-                                <p>Copyright <i class="fa fa-copyright"></i> 2019 <a href="https://quadrecko.com/" target="_blank">Quadrecko Data Labs</a> All rights reserved. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <!-- //Footer Area -->
 
 

@@ -40,64 +40,7 @@
     <div class="wrapper" id="wrapper">
 
         <!-- Header -->
-        <header id="header" class="jnr__header header--one clearfix">
-
-            <!-- End Header Top Area -->
-            <!-- Start Mainmenu Area -->
-
-            <div class="mainmenu__wrapper bg__cat--1 poss-relative header_top_line sticky__header">
-                <div class="">
-                    <div class="row d-none d-lg-flex justify-content-between">
-                        <div class="col-sm-4 col-md-6 col-lg-2 order-1 order-lg-1">
-                            <div class="logo justify-content-end">
-                                <a href="index.php">
-                                    <img src="images/logo/logo.png" alt="logo images">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-md-2 col-lg-9 order-3 order-lg-2">
-                            <div class="mainmenu__wrap">
-                                <nav class="mainmenu__nav">
-                                    <ul class="mainmenu">
-                                        <li class="drop"><a href="about-us.php">About Us</a></li>
-                                        <li class="drop"><a href="event-grid.php">Events</a></li>
-                                        <li class="drop"><a href="admissions.php">Admissions</a></li>
-                                        <li class="drop"><a href="blog-grid.php">Our Community</a></li>
-                                        <li class="drop"><a href="work.php">Work With Us</a></li>
-                                        <!-- <li class="drop"><a href="#">Pages</a>
-                                            <ul class="dropdown__menu">
-                                                <li><a href="about-us.php">about us</a></li>
-                                                <li><a href="service.php">our service</a></li>
-                                                <li><a href="class-details.php">class details</a></li>
-                                                <li><a href="gallery.php">gallery</a></li>
-                                                <li><a href="gallery-details.php">gallery Details</a></li>
-                                                <li><a href="cart.php">cart Page</a></li>
-                                                <li><a href="wishlist.php">wishlist page</a></li>
-                                                <li><a href="checkout.php">checkout page</a></li>
-                                            </ul>
-                                        </li>-->
-
-                                        <!-- <li class="drop"><a href="blog-grid.php">Blog</a></li>-->
-                                        <li><a href="support.php">Support us</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Mobile Menu -->
-                    <div class="mobile-menu d-block d-lg-none">
-                        <div class="logo">
-                            <a href="index.php"><img src="images/logo/logo.png" alt="logo"></a>
-                        </div>
-
-                    </div>
-                    <!-- Mobile Menu -->
-                </div>
-            </div>
-            <!-- End Mainmenu Area -->
-        </header>
+        <?php include_once 'header.php';?>
         <!-- //Header -->
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
@@ -150,7 +93,7 @@
         <!-- End Class Details -->
 
         <!-- Footer Area -->
-        <footer id="footer" class="footer-area footer--2">
+        <?php include_once 'footer.php';?>
 
             <!-- .Start Footer Contact Area -->
             <div class="footer__contact__area bg__cat--2">

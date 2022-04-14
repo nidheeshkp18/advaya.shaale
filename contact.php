@@ -40,62 +40,7 @@
     <div class="wrapper" id="wrapper">
 
         <!-- Header -->
-        <header id="header" class="jnr__header header--one clearfix">
-
-            <!-- Start Mainmenu Area -->
-            <div class="mainmenu__wrapper bg__cat--1 poss-relative header_top_line sticky__header">
-                <div class="">
-                    <div class="row d-none d-lg-flex justify-content-between">
-                        <div class="col-sm-4 col-md-6 col-lg-2 order-1 order-lg-1">
-                            <div class="logo justify-content-end">
-                                <a href="index.php">
-                                    <img src="images/logo/logo.png" alt="logo images">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-md-2 col-lg-9 order-3 order-lg-2">
-                            <div class="mainmenu__wrap">
-                                <nav class="mainmenu__nav">
-                                    <ul class="mainmenu">
-                                        <li class="drop"><a href="about-us.php">About Us</a></li>
-                                        <li class="drop"><a href="event-grid.php">Events</a></li>
-                                        <li class="drop"><a href="admissions.php">Admissions</a></li>
-                                        <li class="drop"><a href="blog-grid.php">Our Community</a></li>
-                                        <li class="drop"><a href="work.php">Work With Us</a></li>
-                                        <!-- <li class="drop"><a href="#">Pages</a>
-                                            <ul class="dropdown__menu">
-                                                <li><a href="about-us.php">about us</a></li>
-                                                <li><a href="service.php">our service</a></li>
-                                                <li><a href="class-details.php">class details</a></li>
-                                                <li><a href="gallery.php">gallery</a></li>
-                                                <li><a href="gallery-details.php">gallery Details</a></li>
-                                                <li><a href="cart.php">cart Page</a></li>
-                                                <li><a href="wishlist.php">wishlist page</a></li>
-                                                <li><a href="checkout.php">checkout page</a></li>
-                                            </ul>
-                                        </li>-->
-
-                                        <!-- <li class="drop"><a href="blog-grid.php">Blog</a></li>-->
-                                        <li><a href="support.php">Support us</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- Mobile Menu -->
-                    <div class="mobile-menu d-block d-lg-none">
-                        <div class="logo">
-                            <a href="index.php"><img src="images/logo/logo.png" alt="logo"></a>
-                        </div>
-
-                    </div>
-                    <!-- Mobile Menu -->
-                </div>
-            </div>
-            <!-- End Mainmenu Area -->
-        </header>
+        <?php include_once 'header.php';?>
         <!-- //Header -->
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
@@ -223,44 +168,8 @@
         </section>
         <!-- End Contact Form -->
         <!-- Footer Area -->
-        <footer id="footer" class="footer-area">
-            <div class="footer__wrapper poss-relative ftr__btm__image section-padding--lg bg--white">
-                <div class="container">
-                    <div class="row">
-                        <!-- Start Single Widget -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer__widget">
+        <?php include_once 'footer.php';?>
 
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Widget -->
-
-
-                </div>
-            </div>
-    </div>
-    <div class="copyright">
-        <div class="container">
-            <div class="row align-items-center copyright__wrapper">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="coppy__right__inner">
-                        <p>Copyright <i class="fa fa-copyright"></i> 2019 <a href="https://quadrecko.com/" target="_blank">Quadrecko Data Labs</a> All rights reserved. </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="ftr__social__icon">
-                        <ul class="dacre__social__link d-flex justify-content-center justify-content-md-end justify-content-lg-end">
-                            <li class="facebook"><a href="https://www.facebook.com/AdvayaShaale"><i class="fa fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="instagram"><a href="https://www.instagram.com/advayashaale_blr.waldorf"><i class="fa fa-instagram"></i></a></li>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </footer>
     <!-- //Footer Area -->
 
 
